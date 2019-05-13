@@ -4,7 +4,7 @@ import Navbar from './navbar'
 const Layout = (props) => (
     <div>
         <Head>
-            <title>Bryan Rojas - Personal Portfolio</title>
+            <title>Bryan Rojas - Software Engineer</title>
             <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css"/>
         </Head>
         <Navbar/>
