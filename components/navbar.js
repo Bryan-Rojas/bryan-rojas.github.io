@@ -4,8 +4,7 @@ const Navbar = () => (
     //className used because it's React
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
         <div className="container">
-            <a className="navbar-brand"><img src="../static/images/logo.png"/></a>
-
+            <a className="navbar-brand"><div id="styling-name">Bryan Rojas</div></a>
             <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
@@ -19,6 +18,9 @@ const Navbar = () => (
                     </li>
                     <li className="nav-item">
                     <Link href="/projects"><a className="nav-link">Projects</a></Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link href="/interests"><a className="nav-link">Interests</a></Link>
                     </li>
                 </ul>
             </div>

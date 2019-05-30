@@ -1,0 +1,9 @@
+footer{
+    background-color: #007bff;
+    color: rgb(255, 255, 255) !important;
+}
+
+#footer{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
