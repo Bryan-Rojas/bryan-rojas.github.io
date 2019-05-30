@@ -1,8 +1,14 @@
 import Layout from '../components/Layout';
+import Highlight from 'react-highlight';
 
 const Index = (props) => (
     <Layout>
-        <h2>About Me</h2>
+        <center>
+            <Highlight>
+                > python3 -m pip install -U bryan
+            </Highlight>
+        </center>
+
         <p>Call me <strong>Bryan</strong>. <br/><br/>
         I'm a <strong>Computer Science</strong> undergraduate student at 
         California State University, Long Beach.

@@ -4,7 +4,7 @@ const Navbar = () => (
     //className used because it's React
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
         <div className="container">
-            <a className="navbar-brand">Bryan Rojas</a>
+            <a className="navbar-brand"><img src="../static/images/logo.png"/></a>
 
             <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ml-auto">
