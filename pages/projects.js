@@ -1,10 +1,12 @@
 import Layout from '../components/Layout';
 
-const About = () => (
+const Projects = () => (
     <Layout>
         <h2>Projects</h2>
-        <p>Here goes my projects!</p>
+        <p>[Github Project Cards]</p>
+        <p>[Github Streaks and Stats]</p>
+
     </Layout>
 );
 
-export default About;
+export default Projects;

@@ -1,23 +1,34 @@
 import Layout from '../components/Layout';
 import Highlight from 'react-highlight';
+import CallMe from '../components/CallMe';
+import Typing from 'react-typing-animation';
 
 const Index = (props) => (
     <Layout>
         <center>
             <Highlight>
-                > python3 -m pip install -U bryan
+                > python3 -m pip install bryan
             </Highlight>
         </center>
-
-        <p>Call me <strong>Bryan</strong>. <br/><br/>
-
-        I'm a <strong>Computer Science</strong> undergraduate student at 
-        <strong>California State University, Long Beach</strong>. I have a strong passion for learning as much as I can! Particularly focusing on web application development at the moment.<br/><br/>
-
-        Currently a rising senior with a Software Engineering Internship this summer @ Chrome River Technologies. <br/><br/>
-
-        
-        </p>
+        <hr/>
+        <br/>
+        <div className="row">
+            <div className="col-4">
+                <br/>
+                <CallMe/>
+                <p>
+                <hr/>
+                Software Engineer / Student
+                <hr/>
+                [Resume]
+                [Github]
+                [LinkedIn]
+                </p>
+            </div>
+            <div className="col-8">
+                <center><img src="https://bryanrojas.net/img/header-img.png" height="50%" width="50%"/></center>
+            </div>
+        </div>
     </Layout>
 );
 
