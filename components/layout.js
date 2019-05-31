@@ -17,6 +17,9 @@ const Layout = (props) => (
             <link rel="stylesheet" href="../static/css/vs2015.css"/>
             */}
 
+            {/* Index */}
+            <link rel="stylesheet" href="../static/css/home.css"/>
+
             {/* Navigation */}
             <link rel="stylesheet" href="../static/css/nav.css"/>
 
