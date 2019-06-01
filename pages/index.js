@@ -1,32 +1,30 @@
 import Layout from '../components/Layout';
 import Highlight from 'react-highlight';
-import PipBryan from '../components/pipbryan';
+import Hello from '../components/hello';
 
 const Index = (props) => (
-    <div id="dark-wallpaper">
+    <div id="wallpaper">
     <Layout>
-        
-            <center>
-                <PipBryan/>
-            </center>
-            <hr/>
-            <br/>
             <div className="row">
-                <div className="col-4">
+
+                <div className="col-8">
+                    <center><img src="https://bryanrojas.net/img/header-img.png" height="70%" width="70%"/></center>
+                </div>
+
+                <div id="intro" className="col-4">
+                    Hello, I'm
                     <br/>
-                    Call me Bryan.
+                    <h1>Bryan Rojas</h1>
                     <p>
                     <hr/>
-                    Software Engineer / Student
+                    <Hello/>
                     <hr/>
                     [Resume]
                     [Github]
                     [LinkedIn]
                     </p>
                 </div>
-                <div className="col-8">
-                    <center><img src="https://bryanrojas.net/img/header-img.png" height="50%" width="50%"/></center>
-                </div>
+
             </div>
         
     </Layout>
